@@ -1,6 +1,6 @@
 # 🚀 Caching Strategy
 
-> **Redis caching for PulseTrade with measurable performance wins.**
+> **Redis caching for stox with measurable performance wins.**
 
 ---
 

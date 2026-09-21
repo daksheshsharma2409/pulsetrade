@@ -1,6 +1,6 @@
 # 🎨 Frontend Architecture
 
-> **Next.js frontend for PulseTrade.**
+> **Next.js frontend for stox.**
 
 ---
 

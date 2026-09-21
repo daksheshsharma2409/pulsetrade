@@ -1,6 +1,6 @@
 # ✨ Features
 
-> **Complete feature list + signature challenges for PulseTrade.**
+> **Complete feature list + signature challenges for stox.**
 
 ---
 

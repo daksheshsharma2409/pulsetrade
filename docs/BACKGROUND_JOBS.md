@@ -1,6 +1,6 @@
 # ⚙️ Background Jobs
 
-> **BullMQ-based async processing for PulseTrade.**
+> **BullMQ-based async processing for stox.**
 
 ---
 

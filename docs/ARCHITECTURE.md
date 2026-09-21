@@ -1,6 +1,6 @@
 # 🏗️ Architecture
 
-> **Tech stack rationale + system architecture + data flows for PulseTrade.**
+> **Tech stack rationale + system architecture + data flows for stox.**
 
 ---
 
@@ -261,14 +261,14 @@
 │  ┌─────────────────────────────────────────────────────────────────────┐   │
 │  │                         VERCEL (Frontend)                            │   │
 │  │  Next.js App — SSR + CDN + Edge Functions                            │   │
-│  │  URL: https://pulsetrade.vercel.app                                  │   │
+│  │  URL: https://stox.vercel.app                                  │   │
 │  └─────────────────────────────────────────────────────────────────────┘   │
 │                                    │                                        │
 │                                    ▼                                        │
 │  ┌─────────────────────────────────────────────────────────────────────┐   │
 │  │                      RENDER / RAILWAY (Backend)                      │   │
 │  │  Express API + Socket.IO + BullMQ Workers                            │   │
-│  │  URL: https://pulsetrade-api.onrender.com                            │   │
+│  │  URL: https://stox-api.onrender.com                            │   │
 │  └─────────────────────────────────────────────────────────────────────┘   │
 │                                    │                                        │
 │                    ┌───────────────┼───────────────┐                        │

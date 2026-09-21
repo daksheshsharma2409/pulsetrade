@@ -1,6 +1,6 @@
 # 🔔 Notification Pipeline
 
-> **Event-driven notifications for PulseTrade.**
+> **Event-driven notifications for stox.**
 
 ---
 
@@ -18,7 +18,7 @@
 
 ## 📖 Overview
 
-PulseTrade uses an **event-driven notification pipeline** to alert users about important events:
+stox uses an **event-driven notification pipeline** to alert users about important events:
 
 - Order executions
 - Price alert triggers
@@ -206,7 +206,7 @@ export const orderExecutedTemplate = (data) => ({
 <body>
   <div class="container">
     <div class="header">
-      <h1>📈 PulseTrade</h1>
+      <h1>📈 stox</h1>
     </div>
     <div class="content">
       <h2>Order Executed</h2>
@@ -257,7 +257,7 @@ export function renderTemplate(type, data) {
             return dailyDigestTemplate(data);
         default:
             return {
-                subject: "Notification from PulseTrade",
+                subject: "Notification from stox",
                 html: `<p>${JSON.stringify(data)}</p>`,
             };
     }

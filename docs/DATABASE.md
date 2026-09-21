@@ -1,6 +1,6 @@
 # 🗄️ Database Schema
 
-> **PostgreSQL schema with Prisma ORM for PulseTrade.**
+> **PostgreSQL schema with Prisma ORM for stox.**
 
 ---
 
@@ -16,7 +16,7 @@
 
 ## 📖 Overview
 
-PulseTrade uses **PostgreSQL** as its primary database with **Prisma ORM** for type-safe database access. The schema is designed to handle:
+stox uses **PostgreSQL** as its primary database with **Prisma ORM** for type-safe database access. The schema is designed to handle:
 
 - Multi-portfolio trading
 - Real-time orders with various types
@@ -654,10 +654,10 @@ async function main() {
     // Create admin user
     const adminPassword = await bcrypt.hash("admin123", 10);
     await prisma.user.upsert({
-        where: { email: "admin@pulsetrade.com" },
+        where: { email: "admin@stox.com" },
         update: {},
         create: {
-            email: "admin@pulsetrade.com",
+            email: "admin@stox.com",
             name: "Admin",
             passwordHash: adminPassword,
             role: "ADMIN",

@@ -1,6 +1,6 @@
 # 🔌 API Documentation
 
-> **RESTful API design for PulseTrade.**
+> **RESTful API design for stox.**
 
 ---
 

@@ -1,6 +1,6 @@
 # ⚡ Real-Time Features
 
-> **Socket.IO implementation for PulseTrade.**
+> **Socket.IO implementation for stox.**
 
 ---
 
@@ -18,7 +18,7 @@
 
 ## 📖 Overview
 
-PulseTrade uses **Socket.IO** for real-time communication between the server and clients. This powers:
+stox uses **Socket.IO** for real-time communication between the server and clients. This powers:
 
 - Live price streaming (stocks + crypto)
 - Real-time order execution notifications

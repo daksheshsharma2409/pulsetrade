@@ -1,18 +1,18 @@
-# 📈 PulseTrade
+# 📈 stox
 
 > **A real-time paper trading simulator for US stocks and cryptocurrency. Practice trading with virtual money, real market data, and zero financial risk.**
 
 ---
 
-## 📖 What Is PulseTrade?
+## 📖 What Is stox?
 
-PulseTrade is a full-stack web application where users practice buying and selling **US stocks** (via Finnhub) and **cryptocurrencies** (via Binance) using **virtual money**. No real money is involved. Users compete on leaderboards, set price alerts, place advanced orders, copy other traders, and analyze their portfolio performance.
+stox is a full-stack web application where users practice buying and selling **US stocks** (via Finnhub) and **cryptocurrencies** (via Binance) using **virtual money**. No real money is involved. Users compete on leaderboards, set price alerts, place advanced orders, copy other traders, and analyze their portfolio performance.
 
 Think of it as a **video game for trading** — realistic, competitive, and completely safe.
 
 ---
 
-## 🎯 Why PulseTrade?
+## 🎯 Why stox?
 
 | For Users                          | For Evaluators                     |
 | ---------------------------------- | ---------------------------------- |
@@ -140,8 +140,8 @@ See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for full details.
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/your-team/pulsetrade.git
-cd pulsetrade
+git clone https://github.com/your-team/stox.git
+cd stox
 
 # 2. Install backend dependencies
 cd backend && npm install

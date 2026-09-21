@@ -1,6 +1,6 @@
 # 📡 Market Data Integration
 
-> **Finnhub (stocks) + Binance (crypto) integration for PulseTrade.**
+> **Finnhub (stocks) + Binance (crypto) integration for stox.**
 
 ---
 
@@ -19,7 +19,7 @@
 
 ## 📖 Overview
 
-PulseTrade uses **two market data providers**:
+stox uses **two market data providers**:
 
 - **Finnhub** — US stocks, forex, news, fundamentals
 - **Binance** — Crypto prices, order book, trade tape
